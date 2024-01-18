@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  padding: 0 5px;
+  margin-top: 24px;
+}
+
+.checkAllIcon {
+  font-size: 30px;
+}
+
+.removeAllIcon {
+  font-size: 30px;
+}
+
+.removeAllButton {
+  margin-left: auto;
+}
+
+.checkAllIsActive {
+  color: #32cd32;
+}
+
+.checkAllIsNotActive {
+  color: #c0c0c0;
+}
+
+.button {
+  display: flex;
+  border: 0;
+  padding: 0;
+  font-size: 26px;
+  color: #c0c0c0;
+  background-color: #ffffff;
+  cursor: pointer;
+}

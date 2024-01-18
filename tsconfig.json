@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5", // js 어떤 버전으로 변경할지 
+    "lib": [ 
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true, // js 파일도 트랜드 파일링에 포함될지 
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true, // use strict를 활성화 할지 
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext", // 컴파일 모듈 파일을 어떤 파일로 할지. esnext : ecma schema의 최신 버전을 사용하겠다. 
+    "moduleResolution": "node", // 
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src"
+  ]
+}
