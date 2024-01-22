@@ -4,7 +4,7 @@ export type TodoType = {
   isCheck: boolean
 }
 
-export type TodoStateType ={ 
+export type TodoStateType ={
   todos: TodoType[]; 
 }
 
