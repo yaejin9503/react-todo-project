@@ -15,7 +15,6 @@ const TodoInput = () => {
       type: 'change', 
       payload: event.target.value
     }); 
-    // props.onTextChange(event.target.value); 
   }
 
   const handleSubmit = ( event: FormEvent) => { 
@@ -27,6 +26,11 @@ const TodoInput = () => {
       }
     })
 
+    // 입력창 초기화
+    inputDispatch({ 
+      type: 'change', 
+      payload: ''
+    }); 
   }
 
   return ( 
