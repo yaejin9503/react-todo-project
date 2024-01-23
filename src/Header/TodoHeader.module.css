@@ -1,8 +1,54 @@
-.headerTitle { 
-
+header {
+  position: relative;
 }
 
-.todoCount{ 
-  color: #32CD32; 
+.imojiWrap {
+  position: absolute;
+  top: -83px;
+  left: 50%;
+  right: 50%;
+}
+
+.imojiBtn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.imojiBtn:hover {
+  background-color: #f7f4f472;
+}
+
+.imoji {
+  font-size: 50px;
+}
+
+.imojiTooltip {
+  display: flex;
+  background-color: #f1f1f1f1;
+  padding: 4px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  position: inherit;
+  /* transition: all 0.2s ease-in-out; */
+  margin-top: 10px;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 270ms;
+  transition-timing-function: ease;
+}
+
+.show {
+  opacity: 1;
+}
+
+.imojiSelect {
+  margin-right: 10px;
+}
+
+.todoCount {
+  color: #32CD32;
   background-color: inherit;
 }
